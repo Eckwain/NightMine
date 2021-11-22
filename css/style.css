@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {background: url(../background.png) no-repeat center center; 
+      min-height: 100%;
+      background-size: cover;
+}
+h1 { color: #ffffff; font-family: "SF Pro Display medium" ;
+   font-size: 48.83px;
+    line-height: 115%;
+    font-weight: normal;
+    margin-bottom: 8px;
+  }
+p{
+  margin-top: 8px;
+  font-family: "SF Pro Display medium";
+  font-size: 20px;
+  color: #ffffff80;
+  line-height: 160%;
+  font-weight: normal;
+  margin-bottom: 24px;
+  
+}
+
+a {
+  font-family: "SF Pro Display semibold";
+  font-size: 16px;
+  font-style: normal;
+  color: #ffffff;
+  padding: 16px 0px;
+  line-height: 150%;
+}
+
+.button:hover{
+  background: rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
+}
+
+.button{
+  display: inline-block;
+  padding: 16px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.6s;
+}
+
+.leftsideinfo{
+  margin: 20% 0;
+}
+
+.underbutton {font-family: "SF Pro Display regular";}
+
+.header p:hover{
+  color: rgb(219, 219, 219);
+}
+
+.header p{
+  display: inline-block;
+  padding-right: 32px;
+  font-family: "SF Pro Display semibold";
+  cursor: pointer;
+}
+
