@@ -25,6 +25,11 @@ p{
   
 }
 
+body.loaded .gif{
+  opacity: 100%;
+  transition: 1s;
+}
+
 a {
   font-family: "SF Pro Display semibold";
   font-size: 16px;
@@ -70,7 +75,10 @@ a {
   float: right;
   display:block;
   border-radius: 1rem;
+  opacity: 0%;
 }
+
+
 
 .discord{
   opacity: 48%;
