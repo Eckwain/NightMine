@@ -50,6 +50,7 @@ a {
 
 .leftsideinfo{
   margin: 20% 0;
+  display: block;
 }
 
 .underbutton {font-family: "SF Pro Display regular";}
@@ -63,5 +64,24 @@ a {
   padding-right: 32px;
   font-family: "SF Pro Display semibold";
   cursor: pointer;
+}
+
+.gif{
+  float: right;
+  display:block;
+  border-radius: 1rem;
+}
+
+.discord{
+  opacity: 48%;
+  float: right;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.vk{
+  float: right;
+  margin-right: 32px;
+  margin-top: 18px;
 }
 
